@@ -89,20 +89,21 @@
       <rule filter="&quot;amenity&quot;='toilets'" key="{521ff4a0-f51e-421a-9587-e75506f494fb}" symbol="4" label="toilets"/>
       <rule filter="&quot;amenity&quot;='place_of_worship'" key="{f295ef24-843a-4151-ac37-b9b6df25922a}" symbol="5" label="religious building"/>
       <rule filter=" &quot;amenity&quot; IN ('hospital', 'clinic', 'doctors')" key="{88dbf9dc-7bb0-46c2-82fd-24fc0de5a695}" symbol="6" label="hospital or clinic"/>
-      <rule filter="&quot;amenity&quot; IN ('school', 'college', 'university', 'kindergarten')" key="{3ffe5807-e2ef-4f36-be26-06377095182b}" symbol="7" label="school"/>
-      <rule filter=" &quot;building&quot; IS NOT NULL&#x9;" key="{72f95687-3cbc-4510-886b-dd67b913c966}" symbol="8" label="building"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;poor&quot;%'" key="{2601e05d-4366-48be-8867-f19acc972b72}" symbol="9" label="building condition: poor"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;average&quot;%'" key="{705ac3cb-fedf-429c-acfc-40d4888b06b7}" symbol="10" label="building condition: average"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;good&quot;%'" key="{3af014af-63be-43a7-b212-7126dae8a857}" symbol="11" label="building condition: good"/>
-      <rule filter="&quot;landuse&quot;='residential'" key="{bc7ab348-7dcc-4729-8846-897dc6aee043}" symbol="12" label="residential land"/>
-      <rule filter="&quot;leisure&quot; IN ('pitch','track')" key="{cb597b1d-db8c-4b3c-bfac-ac07f0f0d34d}" symbol="13" label="sports pitch"/>
-      <rule filter="&quot;landuse&quot; IN ('forest', 'wood', 'yes') OR &quot;leisure&quot; IN ('park', 'garden', 'Common', 'common') OR &quot;other_tags&quot; LIKE '%&quot;natural&quot;=>&quot;wood&quot;%'" key="{d680b84e-1216-45ea-900f-c58fd56930a6}" symbol="14" label="park or wood or leisure"/>
-      <rule filter="&quot;landuse&quot; IN ('farm','farmland')" key="{9e864af0-ebb6-46c5-991f-cc273eee58af}" symbol="15" label="farm"/>
-      <rule filter="&quot;natural&quot;='wetland'" key="{e859fbe0-6629-4dd7-8b7f-d7ce63e6ce30}" symbol="16" label="wetland"/>
-      <rule filter="&quot;amenity&quot;='parking'" key="{924dd8a7-4ebd-4fa2-84f1-2d0b759d86bd}" symbol="17" label="parking"/>
-      <rule filter="&quot;landuse&quot;='industrial'" key="{d787dd8a-792e-4c0c-a3a5-dcf6b97fa845}" symbol="18" label="industrial land"/>
-      <rule filter=" &quot;natural&quot; = 'water' OR &quot;other_tags&quot; LIKE '%&quot;water&quot;%'" key="{601ec406-a25b-44e5-8ad0-2fda11ce8178}" symbol="19" label="water"/>
-      <rule filter=" &quot;admin_level&quot; IS NOT NULL" key="{c0672402-ce47-4d88-b8cd-52086b6a7712}" symbol="20" label="background land"/>
+      <rule filter="&quot;amenity&quot;='pharmacy'" key="{9af55f5a-ad0c-49fe-a00b-3aac3d69af9b}" symbol="7" label="pharmacy"/>
+      <rule filter="&quot;amenity&quot; IN ('school', 'college', 'university', 'kindergarten')" key="{3ffe5807-e2ef-4f36-be26-06377095182b}" symbol="8" label="school"/>
+      <rule filter=" &quot;building&quot; IS NOT NULL&#x9;" key="{72f95687-3cbc-4510-886b-dd67b913c966}" symbol="9" label="building"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;poor&quot;%'" key="{2601e05d-4366-48be-8867-f19acc972b72}" symbol="10" label="building condition: poor"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;average&quot;%'" key="{705ac3cb-fedf-429c-acfc-40d4888b06b7}" symbol="11" label="building condition: average"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;good&quot;%'" key="{3af014af-63be-43a7-b212-7126dae8a857}" symbol="12" label="building condition: good"/>
+      <rule filter="&quot;landuse&quot;='residential'" key="{bc7ab348-7dcc-4729-8846-897dc6aee043}" symbol="13" label="residential land"/>
+      <rule filter="&quot;leisure&quot; IN ('pitch','track')" key="{cb597b1d-db8c-4b3c-bfac-ac07f0f0d34d}" symbol="14" label="sports pitch"/>
+      <rule filter="&quot;landuse&quot; IN ('forest', 'wood', 'yes') OR &quot;leisure&quot; IN ('park', 'garden', 'Common', 'common') OR &quot;other_tags&quot; LIKE '%&quot;natural&quot;=>&quot;wood&quot;%'" key="{d680b84e-1216-45ea-900f-c58fd56930a6}" symbol="15" label="park or wood or leisure"/>
+      <rule filter="&quot;landuse&quot; IN ('farm','farmland')" key="{9e864af0-ebb6-46c5-991f-cc273eee58af}" symbol="16" label="farm"/>
+      <rule filter="&quot;natural&quot;='wetland'" key="{e859fbe0-6629-4dd7-8b7f-d7ce63e6ce30}" symbol="17" label="wetland"/>
+      <rule filter="&quot;amenity&quot;='parking'" key="{924dd8a7-4ebd-4fa2-84f1-2d0b759d86bd}" symbol="18" label="parking"/>
+      <rule filter="&quot;landuse&quot;='industrial'" key="{d787dd8a-792e-4c0c-a3a5-dcf6b97fa845}" symbol="19" label="industrial land"/>
+      <rule filter=" &quot;natural&quot; = 'water' OR &quot;other_tags&quot; LIKE '%&quot;water&quot;%'" key="{601ec406-a25b-44e5-8ad0-2fda11ce8178}" symbol="20" label="water"/>
+      <rule filter=" &quot;admin_level&quot; IS NOT NULL" key="{c0672402-ce47-4d88-b8cd-52086b6a7712}" symbol="21" label="background land"/>
     </rules>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
@@ -164,7 +165,7 @@
               <prop k="angle" v="0"/>
               <prop k="color" v="134,134,134,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./done/2015-09-08_Khayelitsha/vector_fills/restaurant.svg"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/restaurant.svg"/>
               <prop k="offset" v="0,3"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -182,7 +183,22 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="10">
-        <layer pass="9" class="SimpleFill" locked="0">
+        <layer pass="6" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="243,77,23,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="227,26,28,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
+        <layer pass="6" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="244,244,26,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -196,8 +212,8 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="11">
-        <layer pass="9" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
+        <layer pass="6" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="51,160,44,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -211,8 +227,8 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="12">
-        <layer pass="0" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="233,231,221,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -226,7 +242,7 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="13">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
         <layer pass="2" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="191,209,160,255"/>
@@ -241,8 +257,8 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="0.968627" clip_to_extent="1" type="fill" name="14">
-        <layer pass="2" class="SimpleFill" locked="0">
+      <symbol alpha="0.968627" clip_to_extent="1" type="fill" name="15">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="217,225,203,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -256,8 +272,8 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="15">
-        <layer pass="2" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="241,244,199,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -271,8 +287,8 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="16">
-        <layer pass="0" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="202,220,185,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -298,7 +314,7 @@
           <prop k="svg_outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="svg_outline_width_unit" v="MM"/>
           <prop k="width" v="8"/>
-          <symbol alpha="0" clip_to_extent="1" type="line" name="@16@1">
+          <symbol alpha="0" clip_to_extent="1" type="line" name="@17@1">
             <layer pass="0" class="SimpleLine" locked="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
@@ -319,8 +335,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="17">
-        <layer pass="0" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="237,237,237,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -333,9 +349,9 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="10" class="CentroidFill" locked="0">
+        <layer pass="0" class="CentroidFill" locked="0">
           <prop k="point_on_surface" v="1"/>
-          <symbol alpha="1" clip_to_extent="1" type="marker" name="@17@1">
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@18@1">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="188,186,181,255"/>
@@ -357,8 +373,8 @@
           </symbol>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="18">
-        <layer pass="0" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="227,224,217,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -370,38 +386,6 @@
           <prop k="outline_width" v="0.26"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="19">
-        <layer pass="1" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="182,217,255,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="114,133,132,255"/>
-          <prop k="outline_style" v="no"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-        <layer pass="2" class="ShapeburstFill" locked="0">
-          <prop k="blur_radius" v="2"/>
-          <prop k="color" v="173,206,241,255"/>
-          <prop k="color1" v="0,0,255,255"/>
-          <prop k="color2" v="0,255,0,255"/>
-          <prop k="color_type" v="0"/>
-          <prop k="discrete" v="0"/>
-          <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="distance_unit" v="MM"/>
-          <prop k="gradient_color2" v="182,217,255,255"/>
-          <prop k="ignore_rings" v="0"/>
-          <prop k="max_distance" v="3"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="use_whole_shape" v="0"/>
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
@@ -418,14 +402,14 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="10" class="CentroidFill" locked="0">
+        <layer pass="7" class="CentroidFill" locked="0">
           <prop k="point_on_surface" v="0"/>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="@2@1">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="134,134,134,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./done/2015-09-08_Khayelitsha/vector_fills/bar.svg"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/bar.svg"/>
               <prop k="offset" v="0,3"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -443,6 +427,38 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="20">
+        <layer pass="3" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="182,217,255,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="114,133,132,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+        <layer pass="3" class="ShapeburstFill" locked="0">
+          <prop k="blur_radius" v="2"/>
+          <prop k="color" v="173,206,241,255"/>
+          <prop k="color1" v="0,0,255,255"/>
+          <prop k="color2" v="0,255,0,255"/>
+          <prop k="color_type" v="0"/>
+          <prop k="discrete" v="0"/>
+          <prop k="distance_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="distance_unit" v="MM"/>
+          <prop k="gradient_color2" v="182,217,255,255"/>
+          <prop k="ignore_rings" v="0"/>
+          <prop k="max_distance" v="3"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_whole_shape" v="0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="21">
         <layer pass="0" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="222,218,211,255"/>
@@ -471,14 +487,14 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="10" class="CentroidFill" locked="0">
+        <layer pass="7" class="CentroidFill" locked="0">
           <prop k="point_on_surface" v="0"/>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="@3@1">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="134,134,134,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./done/2015-09-08_Khayelitsha/vector_fills/sewer.svg"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/garbage.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -496,9 +512,9 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
-        <layer pass="0" class="SimpleFill" locked="0">
+        <layer pass="6" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="247,245,238,255"/>
+          <prop k="color" v="189,207,216,255"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -509,14 +525,14 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="10" class="CentroidFill" locked="0">
+        <layer pass="7" class="CentroidFill" locked="0">
           <prop k="point_on_surface" v="0"/>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="@4@1">
             <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="206,99,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="./done/2015-09-08_Khayelitsha/vector_fills/toilet.svg"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/toilet.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
@@ -534,7 +550,7 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
-        <layer pass="3" class="SimpleFill" locked="0">
+        <layer pass="4" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="0,0,0,30"/>
           <prop k="joinstyle" v="bevel"/>
@@ -573,6 +589,29 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
+        <layer pass="7" class="CentroidFill" locked="0">
+          <prop k="point_on_surface" v="0"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@5@3">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/church.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="12"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
         <layer pass="5" class="SimpleFill" locked="0">
@@ -588,24 +627,23 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="0" class="CentroidFill" locked="0">
+        <layer pass="7" class="CentroidFill" locked="0">
           <prop k="point_on_surface" v="0"/>
           <symbol alpha="1" clip_to_extent="1" type="marker" name="@6@1">
-            <layer pass="0" class="SimpleMarker" locked="0">
+            <layer pass="0" class="SvgMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="227,26,28,255"/>
+              <prop k="color" v="0,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
-              <prop k="name" v="cross"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/hospital.svg"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="no"/>
+              <prop k="outline_color" v="255,255,255,255"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="scale_method" v="area"/>
-              <prop k="size" v="3.4"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="12"/>
               <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
@@ -614,7 +652,45 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
-        <layer pass="2" class="SimpleFill" locked="0">
+        <layer pass="5" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="251,154,153,255"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+        <layer pass="7" class="CentroidFill" locked="0">
+          <prop k="point_on_surface" v="0"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@7@1">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/pharmacy.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="12"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
+        <layer pass="5" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="225,205,171,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -627,9 +703,32 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
+        <layer pass="7" class="CentroidFill" locked="0">
+          <prop k="point_on_surface" v="0"/>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="@8@1">
+            <layer pass="0" class="SvgMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/education.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="12"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
-        <layer pass="3" class="SimpleFill" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
+        <layer pass="4" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="0,0,0,30"/>
           <prop k="joinstyle" v="bevel"/>
@@ -655,7 +754,7 @@
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
-        <layer pass="5" class="SimpleFill" locked="0">
+        <layer pass="4" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="247,245,238,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -664,21 +763,6 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="175,179,138,255"/>
           <prop k="outline_style" v="no"/>
-          <prop k="outline_width" v="0.26"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="style" v="solid"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="9">
-        <layer pass="9" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="color" v="243,77,23,255"/>
-          <prop k="joinstyle" v="bevel"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="227,26,28,255"/>
-          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.26"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
@@ -877,7 +961,7 @@
     <selectedonly on=""/>
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Pie">
-    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
       <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
       <attribute field="" color="#000000" label=""/>
     </DiagramCategory>

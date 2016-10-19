@@ -1,10 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.6.1-Brighton" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.14.3-Essen" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
     <edittype widgetv2type="TextEdit" name="OGC_FID">
-      <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-    </edittype>
-    <edittype widgetv2type="TextEdit" name="GEOMETRY">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="osm_id">
@@ -38,246 +35,118 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 symbollevels="0" type="RuleRenderer">
+  <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
     <rules key="{b42ac442-b1d9-4d7f-8b68-ae119ad2465c}">
       <rule filter="&quot;man_made&quot;='water_tap' OR &quot;other_tags&quot; LIKE '%&quot;water_tap&quot;%'" key="{32d84df9-a8e1-4e0a-8391-79238c164136}" symbol="0" label="water_points"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;power&quot;=>&quot;tower&quot;%'" key="{d4884963-f9f1-4f7c-8295-1e6953571cca}" symbol="1" label="transformer"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;police&quot;%'" key="{22aa85ec-9d23-47b8-849a-a73f265d734a}" symbol="2" label="police"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;shop&quot;%'" key="{70909786-6391-4992-9988-52cdb4885f04}" symbol="3" label="shops"/>
-      <rule checkstate="0" filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;school&quot;%'" key="{b102fe2f-559f-43ff-872b-3a80d1b68790}" symbol="4" label="schools"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;place_of_worship&quot;%'" key="{c64dbcae-eb88-4dc3-8f0d-2bae84dc0b26}" symbol="5" label="churches"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;railway&quot;=>&quot;station&quot;%'" key="{f19a9d09-56d8-423c-b9d6-68692e44d420}" symbol="6" label="rail"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;wastebasket&quot;%' OR &quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;waste_basket&quot;%'" key="{428b2126-1ec4-4313-89a2-d17493b0ebaf}" symbol="7" label="waste bins"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;wastebasket&quot;%' OR &quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;waste_basket&quot;%'" key="{acb213c0-2e61-4c9b-a848-36e3edb588a3}" symbol="8" label="waste bins"/>
-      <rule filter="&quot;other_tags&quot; LIKE '%&quot;manhole&quot;=>&quot;sewer&quot;%'" key="{d23378a3-2769-44b2-88da-ee29632a3f52}" symbol="9" label="sewer"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;school&quot;%' OR &quot;amenity&quot;='school'" key="{13a5b997-ebb2-4197-a459-09f42697b40b}" symbol="1" label="school"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;wastebasket&quot;%' OR &quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;waste_basket&quot;%'" key="{428b2126-1ec4-4313-89a2-d17493b0ebaf}" symbol="2" label="waste bins"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;manhole&quot;=>&quot;sewer&quot;%'" key="{69f4b52a-e434-4a89-9fb4-981a8242da7c}" symbol="3" label="sewer"/>
+      <rule filter="&quot;other_tags&quot; LIKE '%&quot;amenity&quot;=>&quot;pharmacy&quot;%' OR &quot;amenity&quot;='pharmacy'" key="{5a23da63-8499-467e-bc37-b85f2a24cc1b}" symbol="4" label="pharmacy"/>
     </rules>
     <symbols>
-      <symbol alpha="1" type="marker" name="0">
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#000000"/>
+          <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./vector_fills/water_tap.svg"/>
+          <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/water_tap.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#ffffff"/>
+          <prop k="outline_color" v="255,255,255,255"/>
           <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
+          <prop k="scale_method" v="diameter"/>
           <prop k="size" v="12"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="1">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="252,223,30,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="253,191,111,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2.2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="2">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="106,61,154,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="regular_star"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="255,0,0,0"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="6"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-        <layer pass="0" class="SimpleMarker" locked="1">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="255,255,127,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,0"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="3">
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
         <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="#000000"/>
+          <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./vector_fills/shop.svg"/>
+          <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/education.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#ffffff"/>
+          <prop k="outline_color" v="255,255,255,255"/>
           <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="12"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="4">
-        <layer pass="0" class="SimpleMarker" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
+        <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,127,0,255"/>
+          <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="pentagon"/>
+          <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/trash.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="255,255,255,255"/>
+          <prop k="outline_width" v="1"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="12"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/sewer.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width" v="1"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="3"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="12"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="marker" name="5">
-        <layer pass="0" class="SimpleMarker" locked="0">
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+        <layer pass="0" class="SvgMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="227,26,28,255"/>
+          <prop k="color" v="0,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="regular_star"/>
+          <prop k="name" v="../github/americanredcross/qgis-styles/vector_icons/pharmacy.svg"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="4"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="6">
-        <layer pass="0" class="SimpleMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="163,65,54,255"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="circle"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="0,0,0,255"/>
-          <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="2"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="7">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#000000"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./vector_fills/trash.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#ffffff"/>
           <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
+          <prop k="scale_method" v="diameter"/>
           <prop k="size" v="12"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="8">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#000000"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./vector_fills/trash.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#ffffff"/>
-          <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="12"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
-          <prop k="vertical_anchor_point" v="1"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="marker" name="9">
-        <layer pass="0" class="SvgMarker" locked="0">
-          <prop k="angle" v="0"/>
-          <prop k="color" v="#000000"/>
-          <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="./vector_fills/bag.svg"/>
-          <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="#000000"/>
-          <prop k="outline_width" v="1"/>
-          <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
-          <prop k="scale_method" v="area"/>
-          <prop k="size" v="12"/>
-          <prop k="size_map_unit_scale" v="0,0"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="size_unit" v="MM"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </symbols>
   </renderer-v2>
+  <labeling type="simple"/>
   <customproperties>
     <property key="labeling" value="pal"/>
     <property key="labeling/addDirectionSymbol" value="false"/>
@@ -295,6 +164,7 @@
     <property key="labeling/bufferSizeInMapUnits" value="false"/>
     <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
     <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/bufferTransp" value="0"/>
     <property key="labeling/centroidInside" value="false"/>
     <property key="labeling/centroidWhole" value="false"/>
@@ -304,8 +174,11 @@
     <property key="labeling/distInMapUnits" value="false"/>
     <property key="labeling/distMapUnitMaxScale" value="0"/>
     <property key="labeling/distMapUnitMinScale" value="0"/>
+    <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+    <property key="labeling/drawLabels" value="false"/>
     <property key="labeling/enabled" value="false"/>
     <property key="labeling/fieldName" value=""/>
+    <property key="labeling/fitInPolygonOnly" value="false"/>
     <property key="labeling/fontBold" value="true"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="San Francisco Display"/>
@@ -318,6 +191,7 @@
     <property key="labeling/fontSizeInMapUnits" value="false"/>
     <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
     <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/fontStrikeout" value="false"/>
     <property key="labeling/fontUnderline" value="false"/>
     <property key="labeling/fontWeight" value="75"/>
@@ -327,6 +201,7 @@
     <property key="labeling/labelOffsetInMapUnits" value="true"/>
     <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
     <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/labelPerPart" value="false"/>
     <property key="labeling/leftDirectionSymbol" value="&lt;"/>
     <property key="labeling/limitNumLabels" value="false"/>
@@ -339,10 +214,14 @@
     <property key="labeling/multilineHeight" value="1"/>
     <property key="labeling/namedStyle" value="Medium"/>
     <property key="labeling/obstacle" value="true"/>
+    <property key="labeling/obstacleFactor" value="1"/>
+    <property key="labeling/obstacleType" value="0"/>
+    <property key="labeling/offsetType" value="0"/>
     <property key="labeling/placeDirectionSymbol" value="0"/>
     <property key="labeling/placement" value="0"/>
     <property key="labeling/placementFlags" value="0"/>
     <property key="labeling/plussign" value="false"/>
+    <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
     <property key="labeling/preserveRotation" value="true"/>
     <property key="labeling/previewBkgrdColor" value="#ffffff"/>
     <property key="labeling/priority" value="5"/>
@@ -350,6 +229,7 @@
     <property key="labeling/repeatDistance" value="0"/>
     <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
     <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
+    <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/repeatDistanceUnit" value="1"/>
     <property key="labeling/reverseDirectionSymbol" value="false"/>
     <property key="labeling/rightDirectionSymbol" value=">"/>
@@ -366,11 +246,13 @@
     <property key="labeling/shadowOffsetGlobal" value="true"/>
     <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
     <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shadowOffsetUnits" value="1"/>
     <property key="labeling/shadowRadius" value="1.5"/>
     <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
     <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
     <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
+    <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shadowRadiusUnits" value="1"/>
     <property key="labeling/shadowScale" value="100"/>
     <property key="labeling/shadowTransparency" value="30"/>
@@ -383,6 +265,7 @@
     <property key="labeling/shapeBorderWidth" value="0"/>
     <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
     <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shapeBorderWidthUnits" value="1"/>
     <property key="labeling/shapeDraw" value="false"/>
     <property key="labeling/shapeFillColorA" value="255"/>
@@ -392,11 +275,13 @@
     <property key="labeling/shapeJoinStyle" value="64"/>
     <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
     <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shapeOffsetUnits" value="1"/>
     <property key="labeling/shapeOffsetX" value="0"/>
     <property key="labeling/shapeOffsetY" value="0"/>
     <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
     <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shapeRadiiUnits" value="1"/>
     <property key="labeling/shapeRadiiX" value="0"/>
     <property key="labeling/shapeRadiiY" value="0"/>
@@ -405,6 +290,7 @@
     <property key="labeling/shapeSVGFile" value=""/>
     <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
     <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
+    <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/shapeSizeType" value="0"/>
     <property key="labeling/shapeSizeUnits" value="1"/>
     <property key="labeling/shapeSizeX" value="0"/>
@@ -420,6 +306,9 @@
     <property key="labeling/wrapChar" value=""/>
     <property key="labeling/xOffset" value="0"/>
     <property key="labeling/yOffset" value="0"/>
+    <property key="labeling/zIndex" value="0"/>
+    <property key="variableNames" value="_fields_"/>
+    <property key="variableValues" value=""/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
@@ -446,12 +335,44 @@
     <multilineenabled fieldname="" on=""/>
     <selectedonly on=""/>
   </labelattributes>
-  <editform>.</editform>
-  <editforminit></editforminit>
-  <featformsuppress>0</featformsuppress>
-  <annotationform>.</annotationform>
-  <editorlayout>generatedlayout</editorlayout>
+  <SingleCategoryDiagramRenderer diagramType="Pie">
+    <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
+      <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" color="#000000" label=""/>
+    </DiagramCategory>
+  </SingleCategoryDiagramRenderer>
+  <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+  <annotationform>./done/2015-09-08_Khayelitsha</annotationform>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions/>
+  <editform>./done/2015-09-08_Khayelitsha</editform>
+  <editforminit/>
+  <editforminitcodesource>0</editforminitcodesource>
+  <editforminitfilepath>.</editforminitfilepath>
+  <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+  <featformsuppress>0</featformsuppress>
+  <editorlayout>generatedlayout</editorlayout>
+  <widgets/>
+  <conditionalstyles>
+    <rowstyles/>
+    <fieldstyles/>
+  </conditionalstyles>
+  <layerGeometryType>0</layerGeometryType>
 </qgis>
