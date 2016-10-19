@@ -96,7 +96,7 @@
       <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;average&quot;%'" key="{705ac3cb-fedf-429c-acfc-40d4888b06b7}" symbol="11" label="building condition: average"/>
       <rule filter="&quot;other_tags&quot; LIKE '%&quot;building:condition&quot;=>&quot;good&quot;%'" key="{3af014af-63be-43a7-b212-7126dae8a857}" symbol="12" label="building condition: good"/>
       <rule filter="&quot;landuse&quot;='residential'" key="{bc7ab348-7dcc-4729-8846-897dc6aee043}" symbol="13" label="residential land"/>
-      <rule filter="&quot;leisure&quot; IN ('pitch','track')" key="{cb597b1d-db8c-4b3c-bfac-ac07f0f0d34d}" symbol="14" label="sports pitch"/>
+      <rule filter="&quot;leisure&quot; IN ('pitch','track') OR &quot;other_tags&quot; LIKE '%&quot;leisure&quot;=>&quot;pitch&quot;%'" key="{cb597b1d-db8c-4b3c-bfac-ac07f0f0d34d}" symbol="14" label="sports pitch"/>
       <rule filter="&quot;landuse&quot; IN ('forest', 'wood', 'yes') OR &quot;leisure&quot; IN ('park', 'garden', 'Common', 'common') OR &quot;other_tags&quot; LIKE '%&quot;natural&quot;=>&quot;wood&quot;%'" key="{d680b84e-1216-45ea-900f-c58fd56930a6}" symbol="15" label="park or wood or leisure"/>
       <rule filter="&quot;landuse&quot; IN ('farm','farmland')" key="{9e864af0-ebb6-46c5-991f-cc273eee58af}" symbol="16" label="farm"/>
       <rule filter="&quot;natural&quot;='wetland'" key="{e859fbe0-6629-4dd7-8b7f-d7ce63e6ce30}" symbol="17" label="wetland"/>
@@ -243,7 +243,7 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="14">
-        <layer pass="2" class="SimpleFill" locked="0">
+        <layer pass="6" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="191,209,160,255"/>
           <prop k="joinstyle" v="bevel"/>
@@ -690,7 +690,7 @@
         </layer>
       </symbol>
       <symbol alpha="1" clip_to_extent="1" type="fill" name="8">
-        <layer pass="5" class="SimpleFill" locked="0">
+        <layer pass="1" class="SimpleFill" locked="0">
           <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="color" v="225,205,171,255"/>
           <prop k="joinstyle" v="bevel"/>
